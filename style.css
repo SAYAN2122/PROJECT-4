@@ -1,0 +1,71 @@
+* {
+    text-align: center;
+    background-color: #9AD9E2;
+    font-family: "Poppins", sans-serif;
+}
+
+.Calculator {
+    height: auto;
+    margin: 20px;
+    padding: 50px;
+    border-radius: 35%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 25px;
+}
+
+#height {
+    font-size: medium;
+    font-family: Arial, sans-serif; /* Fixed */
+    border-radius: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input {
+    width: 100px;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#button {
+    background: #9AE3D7;
+    color: black;
+    font-size: medium;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#button:hover {
+    background-color: #0298a0;
+}
+
+#gender {
+    word-wrap: break-word;
+    align-items: center;
+        gap:8 px; /* Adjusts spacing between elements */
+}
+#reset {
+    background: #64d6d4;
+    font-size: medium;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#reset:hover {
+    background-color: #9AEBCF;
+}
+#gender input,
+#gender label{
+    display: inline-block;
+}
